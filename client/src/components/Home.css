@@ -1,0 +1,27 @@
+/* HomeCustom.css */
+
+/* Container styling */
+.home-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  /* Heading 1 styling */
+  .home-container h1 {
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  /* Heading 3 styling */
+  .home-container h3 {
+    color: #6c757d; /* Bootstrap secondary color */
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 767px) {
+    .home-container {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,64 @@
+/* Navbar.css */
+
+/* Header styling */
+header {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6; /* Light border at the bottom */
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navbar brand (logo) styling */
+  .navbar h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  /* Navbar links styling */
+  .navbar-nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin: 0;
+  }
+  
+  .nav-link {
+    color: #495057; /* Bootstrap text color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Bootstrap primary color on hover */
+  }
+  
+  /* Avatar styling */
+  .avatar {
+    margin-left: 15px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 767px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-nav {
+      margin-top: 15px;
+    }
+  }
+  
